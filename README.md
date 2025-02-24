@@ -18,7 +18,6 @@ For each dataset, the images are randomly split into training, validation, and t
 
 ## Usage
 
-Installation
 
 ---
 
@@ -30,10 +29,15 @@ conda activate cfseg
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
 
 
+### **Training**
+```bash
+python Experiment/train_model
 
-如何train和test
 
-requirement and dependencies
+### **Evaluation**
+```bash
+python Experiment/test_model
+
 
 ## Citation
 
