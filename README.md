@@ -6,8 +6,7 @@ Extensive experiments have been conducted on four public medical image datasets,
 
 
 ## Dataset
-
-In our expriment setting, we conduct segmentation tasks on **Four Public Datasets**:<br> 
+In the experimental section, four publicly available and widely utilized datasets are employed for testing purposes. These datasets are:<br> 
 ISIC-2018 (dermoscopy, with 2,594 images)<br>
 Kvasir-SEG (endoscopy, with 1,000 images)<br> 
 BUSI (breast ultrasound, with 437 benign and 210 malignant images)<br> 
