@@ -14,3 +14,28 @@ BUSI (breast ultrasound, with 437 benign and 210 malignant images)<br>
 CVC-ClinicDB (colonoscopy, with 612 images)<br>  
 
 For each dataset, the images are randomly split into training, validation, and test sets with a ratio of 6:2:2.
+
+
+## Usage
+
+Installation
+'''bash
+git clone git@github.com:LDG2333/CFSeg-Net.git
+conda create -n cfseg python=3.8
+conda activate cfseg
+conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
+
+
+如何train和test
+
+requirement and dependencies
+
+## Citation
+
+If you find our repo useful for your research, please consider citing our paper. Our paper is currently being submitted to the Visual Computer:
+?
+
+
+## Contact
+
+For technical questions, please contact guodong0012@gmail.com .
