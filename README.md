@@ -22,7 +22,7 @@ Installation
 
 ---
 
-### **渲染效果**
+### **Installation**
 ```bash
 git clone git@github.com:LDG2333/CFSeg-Net.git
 conda create -n cfseg python=3.8
