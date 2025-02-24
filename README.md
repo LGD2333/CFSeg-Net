@@ -46,7 +46,7 @@ conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cud
 
 ### **Training**
 ```bash
-python Experiment/train_model
+python Experiment/train_model.py
 ```
 To run on different setting or different datasets, please modify:
 
@@ -55,7 +55,7 @@ batch_size, model_name, and task_name in Experiment/Config.py .
 
 ### **Evaluation**
 ```bash
-python Experiment/test_model
+python Experiment/test_model.py
 ``` 
 
 
