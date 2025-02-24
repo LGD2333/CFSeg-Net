@@ -19,11 +19,16 @@ For each dataset, the images are randomly split into training, validation, and t
 ## Usage
 
 Installation
-'''bash
+
+---
+
+### **渲染效果**
+```bash
 git clone git@github.com:LDG2333/CFSeg-Net.git
 conda create -n cfseg python=3.8
 conda activate cfseg
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
+
 
 
 如何train和test
