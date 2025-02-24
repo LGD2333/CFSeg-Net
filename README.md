@@ -4,4 +4,4 @@ Image segmentation is critical in medical image analysis, enabling accurate iden
 The CFE module leverages a multi-range perception scheme, channel shuffle, and multi-feature integration scheme to achieve a broader receptive field. A broader receptive field leads to a better understanding of context features and better segmentation performance. Notably, model performance can be further improved when the FE module is inserted between two CFE modules in the encoder.
 Extensive experiments have been conducted on four public medical image datasets, which are ISIC2018, Kvasir-SEG, BUSI, and CVC-ClinicDB, respectively. Experimental results demonstrate that the proposed CFSeg-Net achieves outstanding model performance. These results highlight CFSeg-Net’s potential as a robust and efficient tool for segmentation in medical imaging. 
 
-Our source code will be available soon. Stay tuned!
+
