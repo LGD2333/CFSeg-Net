@@ -62,7 +62,8 @@ python Experiment/test_model
 
 ## Citation
 
-If you find our repo useful for your research, please consider citing our paper. Our paper is currently being submitted to the Visual Computer:
+If you find our repo useful for your research, please consider citing our paper. 
+Our paper is currently being submitted to *The Visual Computer*:
 ?
 
 
