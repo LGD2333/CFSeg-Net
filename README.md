@@ -14,10 +14,25 @@ BUSI (breast ultrasound, with 437 benign and 210 malignant images)<br>
 CVC-ClinicDB (colonoscopy, with 612 images)<br>  
 
 For each dataset, the images are randomly split into training, validation, and test sets with a ratio of 6:2:2.
+Your dataset path may look like:
+```bash
+/Your Dataset Path/
+├── ISIC-2018/
+    ├── Train_Folder/
+    │   ├── img
+    │   ├── labelcol
+    │
+    ├── Val_Folder/
+    │   ├── img
+    │   ├── labelcol
+    │
+    ├── Test_Folder/
+        ├── img
+        ├── labelcol
+```
 
 
 ## Usage
-
 
 ---
 
@@ -27,16 +42,22 @@ git clone git@github.com:LDG2333/CFSeg-Net.git
 conda create -n cfseg python=3.8
 conda activate cfseg
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
+``` 
 
 
 ### **Training**
 ```bash
 python Experiment/train_model
+```
+To run on different setting or different datasets, please modify:
+
+batch_size, model_name, and task_name in Experiment/Config.py .
 
 
 ### **Evaluation**
 ```bash
 python Experiment/test_model
+``` 
 
 
 ## Citation
