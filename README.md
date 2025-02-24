@@ -13,7 +13,7 @@ BUSI (breast ultrasound, with 437 benign and 210 malignant images)<br>
 CVC-ClinicDB (colonoscopy, with 612 images)<br>  
 
 For each dataset, the images are randomly split into training, validation, and test sets with a ratio of 6:2:2.<br>
-Your dataset path may look like:
+The dataset path may look like:
 ```bash
 /The Dataset Path/
 ├── ISIC-2018/
