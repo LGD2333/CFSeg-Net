@@ -61,9 +61,15 @@ python Experiment/test_model.py
 
 ## Citation
 
-If you find our repo useful for your research, please consider citing our paper. <br>
-Our paper is currently being submitted to *The Visual Computer*:<br>
-?
+If you find our repo useful for your research, please consider citing our article. <br>
+This article has been submitted for peer-review in the journal called *The visual computer*.<br>
+```bibtex
+@ARTICLE{40046799,
+  author    = {Guodong Li, Shiren Li, Yaoxue Lin, Sihua Tang, Wenguang Xu, Kangxian Chen, Guangguang Yang},
+  title     = {CFSeg-Net: Context Feature Extraction Network for Medical Image Segmentation},
+  year      = {2025}
+}
+``` 
 
 
 ## Contact
