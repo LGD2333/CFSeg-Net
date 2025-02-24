@@ -15,7 +15,7 @@ CVC-ClinicDB (colonoscopy, with 612 images)<br>
 For each dataset, the images are randomly split into training, validation, and test sets with a ratio of 6:2:2.<br>
 Your dataset path may look like:
 ```bash
-/Your Dataset Path/
+/The Dataset Path/
 ├── ISIC-2018/
     ├── Train_Folder/
     │   ├── img
