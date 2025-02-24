@@ -5,7 +5,7 @@ The CFE module leverages a multi-range perception scheme, channel shuffle, and m
 Extensive experiments have been conducted on four public medical image datasets, which are ISIC2018, Kvasir-SEG, BUSI, and CVC-ClinicDB, respectively. Experimental results demonstrate that the proposed CFSeg-Net achieves outstanding model performance. These results highlight CFSeg-Net’s potential as a robust and efficient tool for segmentation in medical imaging. 
 
 
-## Dataset
+## Experiment
 In the experimental section, four publicly available and widely utilized datasets are employed for testing purposes. These datasets are:<br> 
 ISIC-2018 (dermoscopy, with 2,594 images)<br>
 Kvasir-SEG (endoscopy, with 1,000 images)<br> 
